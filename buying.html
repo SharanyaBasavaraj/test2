@@ -1,0 +1,34 @@
+                       
+                        
+                        <script>                        
+                                function clothes()
+                                {
+                                    switch(sel)
+                                    {
+                                case "clothes":
+                                document.getElementById("span1").innerHTML="5000";
+                                case "shoes":
+                                document.getElementById("span1").innerHTML="2000";
+                                case "electronics":
+                                document.getElementById("span1").innerHTML="10000";
+                                case "decor":
+                                document.getElementById("span1").innerHTML="3000";
+                                break;} }
+                        </script>
+                       
+                       <h2>Product Bill</h2>
+                       
+                       Item:
+
+                        <select id="sel" onclick="clothes()">     
+                            <option>clothes</option>
+                            <option>shoes</option>
+                            <option>electronics</option>
+                            <option>decor</option>
+                            
+                        </select><br>
+                    
+
+
+
+                       <span id="span1"></span> <br>
